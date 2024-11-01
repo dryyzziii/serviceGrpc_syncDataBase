@@ -54,6 +54,6 @@ Voici un exemple de JSON que vous pouvez utiliser pour une synchronisation de do
     { "source_column": "updateddate", "target_column": "updateddate" }
   ]
 }
-
+```
 
 ---
