@@ -11,11 +11,13 @@ Ce projet est un service gRPC conçu pour synchroniser les données entre deux b
 ## Prérequis
 
 - .NET 6.0 ou supérieur
-- Paquets NuGet :
-  - `Grpc.AspNetCore`
-  - `Microsoft.Data.Sqlite`
-  - `Npgsql`
-  - `Dapper`
+- Paquets NuGet requis :
+  - `Dapper` (2.1.35) : Facilite l'exécution de requêtes SQL de manière dynamique.
+  - `Grpc.AspNetCore` (2.66.0) : Permet de créer et de gérer le serveur gRPC dans une application ASP.NET Core.
+  - `Microsoft.Data.Sqlite.Core` (8.0.10) : Fournit la prise en charge de la base de données SQLite.
+  - `Npgsql` (8.0.5) : Fournit la prise en charge de la base de données PostgreSQL.
+  - `SQLitePCLRaw.bundle_e_sqlite3` (2.1.10) : Inclut les bibliothèques nécessaires pour l'exécution de SQLite.
+  - `System.Data.Odbc` (8.0.1) : Fournit la prise en charge des connexions ODBC pour interagir avec diverses bases de données.
 - Serveur de bases de données SQL (par exemple PostgreSQL) avec les DSN configurés pour ODBC si nécessaire.
 
 ## Utilisation
