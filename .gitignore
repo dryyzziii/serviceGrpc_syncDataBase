@@ -1,0 +1,104 @@
+# Fichiers de build de Visual Studio
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# Fichiers de configuration de l'IDE
+.vscode/
+.vs/
+.vs/*
+*.VC.db
+*.VC.VC.opendb
+*.VC.db-wal
+*.VC.db-shm
+
+# Cache, données de débogage, et profil utilisateur
+*.ncb
+*.sdf
+*.opensdf
+*.cachefile
+*.pdb
+
+# Fichiers de packages
+*.nuget/
+packages/
+**/packages/*
+*.nupkg
+*.snupkg
+
+# Fichiers de publication et d'empaquetage
+*.publishsettings
+*.pubxml
+*.publishproj
+
+# Fichiers de configuration de l'environnement local
+appsettings.Development.json
+
+# Fichiers de travail de IIS
+.IISExpress/
+.vsconfig
+
+# Fichiers d'analyse de code
+*.CodeAnalysisLog.xml
+
+# Fichiers temporaires et de sauvegarde
+*.bak
+*.swp
+*.orig
+*.tmp
+*.temp
+*.log
+
+# JetBrains Rider
+.idea/
+.idea/*
+
+# Fichiers de configuration de l'interface graphique
+*.Designer.cs
+
+# Fichiers de base de données local
+*.mdf
+*.ldf
+
+# Paramètres de debug
+.launchSettings.json
+
+# Fichiers générés par les extensions
+_ReSharper.*
+*.DotSettings.user
+TestResult*/
+
+# Build d'Azure
+.vscode/
+.terraform/
+*.tfstate
+.terraform.lock.hcl
+
+# Pour les projets fonctionnant avec Docker
+docker-compose.override.yml
+
+# Pour les tests
+TestResults/
+*.trx
+*.coverage
+coverage/
+
+# Fichiers temporaires de stylecop
+StyleCopReport.xml
+
+# Fichiers de base de données SQLite
+*.db
+*.db-shm
+*.db-wal
+
+# Pilotes et configurations spécifiques aux projets gRPC
+*.proto
+Generated Protos
+
+# Autres fichiers potentiels de cache
+*.lock.json
+*.log
